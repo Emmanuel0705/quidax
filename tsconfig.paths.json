@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@*": ["src/*"],
+      "@modules/*": ["src/modules/*"],
+      "@services/*": ["src/services/*"],
+      "@utils/*": ["src/utils/*"],
+      "@interface/*": ["src/types/interfaces/*"],
+      "@entity/*": ["src/entities/*"],  
+      "@enum/*": ["src/types/enums/*"],
+      "@constants/*": ["src/constants/*"],
+      "@profile/*": ["src/modules/profile/*"],
+      // add more paths heres
+    }
+  }
+}
